@@ -1,0 +1,19 @@
+﻿.pkResult { margin-bottom:20px; border:1px solid #ddd; border-width:1px 1px 0 1px; width:948px;}
+.pkResult th { text-align:right; font-weight:normal; line-height:30px; border-bottom:1px solid #ddd; background:#f8f8f8; padding-right:10px; width:90px;}
+.pkResult td.pic img { width:180px; padding:5px 0}
+.pkResult td { width:273px; padding:5px 0; text-align:center; line-height:20px; border-bottom:1px solid #ddd; border-left:1px solid #dfdfdf; color:#666 }
+.pkResult td a { font-weight:bold; font-size:13px;}
+.pkResult a.removeBtn { font-weight:normal; color:#0060c5; float:right; font-size:12px; padding:0px 5px; border:1px solid #ddd; margin-right:10px}
+.pkResult tr.current { background:#ffeeee}
+
+.pkListBox { border:1px solid #ddd; background:#fafafa; margin-bottom:20px; padding:4px 15px 8px 15px; overflow:hidden;zoom:1;}
+.PKbtn { border-top:1px dashed #ddd; padding-top:8px; text-align:center}
+.PKNotice {background:#fafafa url(../images/bg_point.gif) no-repeat 10px 5px; border: 1px solid #EDD879; color: #9E9E9E; height: 18px; line-height: 18px; padding: 3px 0 3px 11px; margin-top:5px; margin-bottom:5px;}
+.pkList { margin-top:5px; overflow:hidden;}
+.pkList dd { line-height:35px; border-top:1px dashed #ddd; overflow:hidden;}
+.pkList strong { float:left; width:144px; overflow:hidden; font-weight:normal}
+.pkList b { float:left; text-align:center; width:12px; height:12px; border:1px solid #0060c5; color:#0060c5; line-height:12px; font-size:12px; margin:11px 6px 0 0; margin/*\**/:10px 6px 0 0\9; *margin:10px 6px 0 0!important;  *margin:10px 6px 0 0;}
+.pkList i img { float:right;margin-top:12px; margin-left:3px;  }
+.pkList i a:link, .pkList i a:visited { float:left; color:#888; font-style:normal}
+.pkList i a:hover { color:#e60012}
+.pkList i span{float:right;}

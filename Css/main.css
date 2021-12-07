@@ -1,0 +1,19 @@
+﻿.mainBox{ background:#fff; overflow:hidden;}
+.width110{ width:110px;}
+.box{ width:954px; margin:0 auto;}
+
+/*header & footer beging*/
+
+.DBKeyword{ background:#f6efe0; overflow:hidden; height:56px; margin-top:40px}
+.DBKeyword li{ float:left; margin-top:14px; }
+.DBtext{ line-height:24px;}
+.DBSearch p{ float:left;}
+.DBSearch01{ border:1px #790c0c solid; height:28px; width:100px;}
+.DBSearch02{ border:1px #790c0c solid; width:410px; height:26px; margin-left:-10px; background: url(../images/fangdaqi.gif) no-repeat 400px 5px #fff; color:#ccc;}
+.DBanniu{ width:104px; margin-left:-10px; }
+.DBanniu input{ background:url(../images/hender_sousuo.gif) no-repeat; width:100px; height:28px; color:#fff; border:1px solid #790C0C;}
+.DBKeyword .DBlink{ width:214px;  margin-left:10px; display:inline; line-height:16px; margin-top:12px; color:#3378cc;}
+.DBlink p a{ color:#3378cc} 
+/*header & footer end*/
+
+.content { overflow:hidden; zoom:1;}

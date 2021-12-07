@@ -1,0 +1,351 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:"宋体";
+	color:#000;
+}
+.boxwidth{
+	width:1003px;
+	margin:0px auto;
+}
+.content{
+	line-height:18px;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	color:#fa5e00;
+}
+img{
+	vertical-align:top;
+}
+h2{ 
+	text-indent:20px;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+	position:relative;
+}
+h2 span{
+position:absolute;
+top:0px;
+right:12px;
+font-weight:normal;
+}
+#menu{
+	background:url(../images/menubg.jpg) repeat-x;
+	height:38px;
+	line-height:38px;
+	margin-top:1px;
+}
+#menu ul{
+	overflow:hidden;
+}
+#menu li{
+	padding-left:4px;
+	float:left;
+	position:relative;
+}
+#menu li a{
+	font-size:14px;
+	color:#FFF;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+	width:94px;
+}
+#menu li a:hover{
+	background:url(../images/alibg.jpg) no-repeat;
+}
+#menu li ul{
+	position:absolute;
+	top:0px;
+	left:0px;
+	padding-left:4px;
+	display:none;
+
+}
+#menu li li{
+	padding:0px;
+	height:28px;
+	line-height:28px;
+	background:#025895;
+		filter:Alpha(Opacity=90);
+	-moz-opacity:0.90;
+	opacity:0.9;
+
+}
+#menu li li a{
+	font-size:14px;
+	font-weight:normal;
+}
+#menu li li a:hover{
+	background:#0b87df;
+}
+#container{
+	overflow:hidden;
+	margin-top:10px;
+}
+.conleft{
+	width:260px;
+	float:left;
+}
+.rdtp h2{
+	background:url(../images/rdtp.jpg) no-repeat;
+	height:32px;
+	line-height:32px;
+}
+.rdtp .content{
+background:url(../images/rdtpbg.jpg) no-repeat;
+min-height:212px;
+height:auto!important;
+height:212px;
+text-align:center;
+}
+.rdtp .content a{
+display:block;
+text-align:center;
+line-height:25px;
+white-space:nowrap;
+font-weight:bold;
+}
+.xkjs{
+margin-top:15px;
+}
+.xkjs h2{
+background:url(../images/xgjs.jpg) no-repeat;
+height:28px;
+line-height:28px;
+}
+.xkjs .content{
+background:url(../images/xkjsbg.jpg) no-repeat;
+min-height:144px;
+height:auto!important;
+height:144px;
+padding:8px;
+}
+.xkjs .content li,.xzzq .content li{
+background:url(../images/icon3.jpg) no-repeat 5px 5px;
+}
+.newslists li
+{
+width:180px;	
+height:20px;
+line-height:26px;
+border-bottom:1px dashed #CCCCCC;
+background:url(../images/btn_down01.gif) no-repeat 5px 5px;
+text-indent:22px;
+position:relative;
+}
+.newslist li
+{
+width:650px;	
+height:26px;
+line-height:26px;
+border-bottom:1px dashed #CCCCCC;
+background:url(../images/icon1.jpg) no-repeat 5px 5px;
+text-indent:22px;
+position:relative;
+}
+.newslist li span{
+position:absolute;
+top:0px;
+right:5px;
+}
+.conmiddle,.nybox{
+width:442px;
+float:left;
+}
+.nybox .content{
+width:426px;
+border:#26A3FF 3px solid;
+border-top:none;
+min-height:400px;
+height:auto!important;
+height:400px;
+padding:10px 5px 0px 5px; 
+}
+.xwzx h2,.nybox h2{
+background:url(../images/xwzx.jpg) no-repeat;
+height:32px;
+line-height:32px;
+color:#FA5E00;
+}
+.xwzx .content{
+background:url(../images/xwzxbg.jpg) no-repeat;
+min-height:201px;
+height:auto;
+height:201px;
+padding:5px;
+}
+
+.hdly{
+margin-top:15px;
+}
+.hdly h2{
+background:url(../images/hdly.jpg) no-repeat;
+height:28px;
+line-height:28px;
+}
+.hdly .content{
+background:url(../images/hdlybg.jpg) no-repeat;
+min-height:148px;
+height:auto!important;
+height:148px;
+padding-top:12px;
+padding-left:5px;
+}
+.piclist ul{
+overflow:hidden;
+}
+.piclist li{
+float:left;
+padding-left:8px;
+}
+.piclist li a{
+display:block;
+line-height:25px;
+text-align:center;
+}
+.piclist li img{
+padding:3px;
+border:#999999 solid 1px;
+}
+.conright{
+width:301px;
+float:right;
+}
+.zxgg h2{
+background:url(../images/zxgg.jpg) no-repeat;
+height:33px;
+line-height:33px;
+}
+.zxgg .content{
+background:url(../images/zxggbg.jpg) no-repeat;
+min-height:195px;
+height:auto!important;
+height:195px;
+padding:8px;
+}
+.zxgg .content li{
+background:url(../images/icon2.jpg) no-repeat 8px 6px; 
+}
+.xzzq{
+margin-top:15px;
+}
+.xzzq h2{
+background:url(../images/xzzq.jpg) no-repeat;
+height:28px;
+line-height:28px;
+}
+.xzzq .content{
+background:url(../images/xzzqbg.jpg) no-repeat;
+min-height:144px;
+height:auto!important;
+height:144px;
+padding:8px;
+}
+
+#link{
+margin-top:15px;
+}
+.linktop{
+background:url(../images/linktop.jpg) no-repeat;
+height:4px;
+line-height:4px;
+font-size:4px;
+}
+.linkfooter{
+background:url(../images/linkbottom.jpg) no-repeat;
+height:4px;
+line-height:4px;
+font-size:4px;
+}
+.linkcon{
+background:url(../images/linkmiddle.jpg) repeat-y;
+min-height:22px;
+height:auto!important;
+height:22px;
+line-height:22px;
+}
+.linkcon h3{
+height:20px;
+float:left;
+margin-left:18px;
+color:#FA5E00;
+font-size:14px;
+font-weight:bold;
+}
+.linkcon a{
+float:left;
+display:block;
+padding-left:10px;
+white-space:nowrap;
+}
+#copyright{
+line-height:22px;
+text-align:center;
+min-height:74px;
+height:auto!important;
+height:74px;
+padding-top:20px;
+}
+.nybox .content li{
+
+}
+h1.titleStyle {
+	text-align:center;
+	font-size:26px;
+	line-height:28px;
+	padding:20px 0px;
+}
+.infoTS {
+	text-align:center;
+	background:#f4f4f4;
+}
+#conlr {
+	padding:10px;
+}
+
+.lrimg {
+	text-align:center;
+	padding:10px 0px;
+}
+
+
+.ddshadow{
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+background: silver;
+}
+
+
+
+
+
+DIV.sabrosus {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px;  PADDING-TOP: 3px; TEXT-ALIGN:right;
+}
+DIV.sabrosus A {
+	BORDER-RIGHT: #9aafe5 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #9aafe5 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #9aafe5 1px solid; COLOR: #2e6ab1; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #9aafe5 1px solid; TEXT-DECORATION: none
+}
+DIV.sabrosus A:hover {
+	BORDER-RIGHT: #2b66a5 1px solid; BORDER-TOP: #2b66a5 1px solid; BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; BORDER-BOTTOM: #2b66a5 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.pagination A:active {
+	BORDER-RIGHT: #2b66a5 1px solid; BORDER-TOP: #2b66a5 1px solid; BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; BORDER-BOTTOM: #2b66a5 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.sabrosus SPAN.current {
+	BORDER-RIGHT: navy 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: navy 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: navy 1px solid; COLOR: #fff; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: navy 1px solid; BACKGROUND-COLOR: #2e6ab1
+}
+DIV.sabrosus SPAN.disabled {
+	BORDER-RIGHT: #929292 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #929292 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #929292 1px solid; COLOR: #929292; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #929292 1px solid
+}
