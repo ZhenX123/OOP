@@ -1,0 +1,93 @@
+﻿/*	全局定义　*/
+body, td, div, p, input, textarea, select	{
+	color:			#111111;
+	font-family:	Tahoma;
+	font-size:		12px;
+	line-height:	13pt;
+}
+input, textarea, hr	{
+	border:			1px #DDE3EC solid;
+}
+input, select, select	{	
+	height:			18px;
+}
+body	{
+	background:		#fff;
+	margin:			6px;
+	text-align:		center;
+	scrollbar-face-color:		#f2f2ee;
+	scrollbar-highlight-color:	#fafbfc;
+	scrollbar-shadow-color:		#dee4f2;
+	scrollbar-track-color:		#ffffff;
+	scrollbar-darkshadow-color:	#dee4f2;	
+	scrollbar-base-color:		#dee4f2;
+}
+a	{
+	color:			#266DBD;
+	text-decoration:none;
+}
+a:hover	{
+	color:			#ff6600;
+	text-decoration:underline;
+}
+td	{
+	border-color:	#DDE3EC;	/* 该项对firefox之类无效，对ie有效 */
+}
+form {
+	margin:			0;
+}
+.grid	{
+	border:			1px #DDE3EC solid;
+	border-collapse:collapse;
+}
+.nogrid	{
+	border:			0px !important;
+}
+.fixed	{
+	table-layout:	fixed;
+	overflow:		hidden;
+}
+.smallbox	{
+	height:			11px !important;
+	height:			16px;
+	border:			0px !important;
+}
+.cursor	{
+	cursor:			hand;
+}
+/*	自定义按钮  */
+.button	{
+	font-family:	宋体;
+	border-right:	1px #a9a9a9 solid;
+	border-bottom:	1px #a9a9a9 solid;
+	height:			18px;
+	padding-left:	1px;
+	background:		buttonface;
+}
+/*	标题行	*/
+.category	
+{
+	color:			#0F83EC;
+	background:		#f3f3f3;
+	padding:		2px;
+}
+/*	提示文本颜色  */
+.t1	{
+	color:			#f96600;
+}
+/*	醒目文本颜色  */
+.t2	{
+	color:			red;
+}
+/*	灰调文本颜色  */
+.t3	{
+	color:			#555555;
+}
+/*	高亮行	*/
+.highlight	{
+	background:		#fafafa;
+}
+/* 为了适应ubb中引用论坛样式的bg3 */
+.bg3	{
+	background:		#fbfbfb;
+}
